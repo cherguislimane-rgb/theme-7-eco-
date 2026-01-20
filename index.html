@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Thème 7 – Activité et chômage (STMG)</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <div class="brand">
+        <div class="logo">T7</div>
+        <div>
+          <h1>Thème 7 – Activité et chômage</h1>
+          <p>STMG • Fiches capacités • Accès rapide</p>
+        </div>
+      </div>
+      <div class="hint">Clique sur une tuile pour afficher la fiche en plein écran.</div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="grid">
+      <button class="card" data-src="assets/images/01-offre-demande-travail.png">
+        <div class="thumb"></div>
+        <div class="meta">
+          <h2>Offre et demande de travail</h2>
+          <p>Ouvrir la fiche</p>
+        </div>
+      </button>
+      <button class="card" data-src="assets/images/02-population-active.png">
+        <div class="thumb"></div>
+        <div class="meta">
+          <h2>Population active / inactive</h2>
+          <p>Ouvrir la fiche</p>
+        </div>
+      </button>
+      <button class="card" data-src="assets/images/03-taux-activite-emploi-chomage.png">
+        <div class="thumb"></div>
+        <div class="meta">
+          <h2>Taux d’activité, d’emploi, de chômage</h2>
+          <p>Ouvrir la fiche</p>
+        </div>
+      </button>
+      <button class="card" data-src="assets/images/04-evolution-indicateurs.png">
+        <div class="thumb"></div>
+        <div class="meta">
+          <h2>Évolution des indicateurs</h2>
+          <p>Ouvrir la fiche</p>
+        </div>
+      </button>
+      <button class="card" data-src="assets/images/05-plein-emploi-sous-emploi.png">
+        <div class="thumb"></div>
+        <div class="meta">
+          <h2>Plein emploi / sous-emploi</h2>
+          <p>Ouvrir la fiche</p>
+        </div>
+      </button>
+      <button class="card" data-src="assets/images/06-imperfections-marche-travail.png">
+        <div class="thumb"></div>
+        <div class="meta">
+          <h2>Imperfections du marché du travail</h2>
+          <p>Ouvrir la fiche</p>
+        </div>
+      </button>
+      <button class="card" data-src="assets/images/07-formes-chomage.png">
+        <div class="thumb"></div>
+        <div class="meta">
+          <h2>Formes de chômage</h2>
+          <p>Ouvrir la fiche</p>
+        </div>
+      </button>
+      <button class="card" data-src="assets/images/08-politiques-emploi.png">
+        <div class="thumb"></div>
+        <div class="meta">
+          <h2>Politiques de l’emploi</h2>
+          <p>Ouvrir la fiche</p>
+        </div>
+      </button>
+      <button class="card" data-src="assets/images/09-offre-demande-definitions.png">
+        <div class="thumb"></div>
+        <div class="meta">
+          <h2>Définitions (offre/demande de travail)</h2>
+          <p>Ouvrir la fiche</p>
+        </div>
+      </button>
+    </section>
+
+    <footer class="foot">
+      <span>© 2026 • Ressources pédagogiques</span>
+      <span class="sep">•</span>
+      <a href="#" id="how">Aide (GitHub Pages)</a>
+    </footer>
+  </main>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lb-backdrop" data-close="1"></div>
+    <div class="lb-panel" role="dialog" aria-modal="true">
+      <div class="lb-bar">
+        <div class="lb-title" id="lbTitle">Fiche</div>
+        <div class="lb-actions">
+          <a class="lb-open" id="lbOpen" target="_blank" rel="noopener">Ouvrir dans un nouvel onglet</a>
+          <button class="lb-close" data-close="1" aria-label="Fermer">✕</button>
+        </div>
+      </div>
+      <div class="lb-content">
+        <img id="lbImg" alt="Fiche" loading="lazy">
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
